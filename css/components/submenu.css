@@ -1,0 +1,13 @@
+.submenu {
+    width: 100%;
+}
+
+.submenu__content {
+    margin: auto;
+    width: 100%;
+    max-width: 1290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

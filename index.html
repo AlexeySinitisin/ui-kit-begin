@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/general/ui.css">
     <link rel="stylesheet" href="css/components/navigation.css">
+    <link rel="stylesheet" href="css/components/submenu.css">
+    <link rel="stylesheet" href="css/components/form.css">
+    <link rel="stylesheet" href="css/components/TV.css">
+    <link rel="stylesheet" href="css/components/tariffs.css">
     <title>Document</title>
 </head>
 <script src="js/js.js"></script>
@@ -28,6 +32,14 @@
     <img src="icon/web.svg" alt="" class="icon icon_web">
     <img src="icon/desktop.svg" alt="" class="icon icon_desktop">
     <img src="icon/massage.svg" alt="" class="icon icon_massage">
+    <img src="icon/clock.svg" alt="" class="icon icon_clock">
+    <a href="javascript:void(0)"><img src="icon/right.svg" alt="" class="icon icon_right"></a>
+    <img src="icon/square.svg" alt="" class="icon icon_square">
+    <img src="icon/triangle.svg" alt="" class="icon icon_triangle">
+    <img src="icon/star.svg" alt="" class="icon icon_star">
+    <img src="icon/cross.svg" alt="" class="icon icon_cross">
+    <button class="btn btn_orange">Новое подключение</button>
+
     <h1>NAVIGATION</h1>
     <header class="header">
         <div class="header__content">
@@ -41,15 +53,91 @@
                         </div>
                     </div>
                     <div class="nav__menu">
-                     <div class="nav__menu-personal"><a href="javascript:void(0)">Частным лицам</a></div>
-                     <div class="nav__menu-business"><a href="javascript:void(0)">Бизнесу</a></div>
+                     <a href="javascript:void(0)" class="nav__menu-link nav__menu-link_personal">Частным лицам</a>
+                     <a href="javascript:void(0)" class="nav__menu-link nav__menu-link_business">Бизнесу</a>
                     </div>
                 </div>
             <button class="btn btn_login-orange">  <span class="btn__text_orange btn__icon btn__icon_orange">Войти</span></button>
             </nav>
         </div>
     </header>
+    <div class="submenu">
+        <div class="submenu__content">
+            <a href="javascript:void(0)"><img src="icon/logo.svg" alt="" class="submenu__logo"></a> <div class="submenu__container"><button class="btn btn_orange">Новое подключение</button> 
+                <button class="btn btn_transperent">Техническая поддержка</button> </div>
+        </div>
+    </div>
+    <form action="javascript:void(0)" method="post">
+        <input type = "radio" name="radio_button" checked> 
+    </form>
+<div class="form">
+   <div class="form__content">
+    <legend class="form__legend">Ваш телефон</legend> 
+    <form action="javascript:void(0)" method="post">
+    <input type="text" name="telephone" placeholder="+7 903 367 65 47" class="form__telephone">
+   </div>
+    </form>
+</div>
+<div class="tv">
+    <div class="tv__content">
+        <a href="javascript:void(0)"><img src="img/logo_TV.png" alt="" class="tv__img"></a>
+        <div class="tv__conteiner">
+            <a href="javascript:void(0)" class="tv__title-link">Билайн ТВ</a>
+            <div class="tv__text">Интерактивное телевидение нового поколения. Подключайте телевиденье бесплатно 
+                и смотрите до 300 популярных телеканалов, новинки кино, любимые фильмы и мультфильмы на разных устройствах</div>
+        </div>
+    </div>
+</div>
 
+
+
+<div class="unlimited">
+    <div class="unlimited__title"><div class="unlimited__title-text">Тариф для тебя «Анлим»</div></div>
+    <div class="unlimited__content">
+        
+        <div class="unlimited__home">
+            <div class="unlimited__home-internet">
+                <h2>Домашний интернет</h2>
+                <p class="unlimited__text">До <b>100</b> Мбит/c</p>
+            </div>
+            <div class="unlimited__home-tv">
+                <h2>Телевидение</h2>
+                <p class="unlimited__text"><b>77 </b><a href="javascript:void(0)" class="link link_black">каналов</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="unlimited__mobile">
+            <h2>Мобильная связь</h2>
+            <p class="unlimited__text"><img src="icon/infinity.svg" alt=""> Гб</p>
+            <p class="unlimited__text"><b>600</b> минут</p>
+            <p class="unlimited__text"><b>300</b> СМС</p>
+        </div>
+        <hr>
+        <div class="unlimited__wifi">
+            <div class="unlimited__wifi-column">
+                <div class="unlimited__wifi-text">
+                    <h2 class="unlimited__wifi-title">Wifi роутер</h2>
+                    <p class="unlimited__text unlimited__text_grey">3600 ₽</p>
+                </div>
+                <form action="javascript:void(0)" class="unlimited__form" method="post" >
+                    <input type="checkbox" id="payt" checked/>
+                    <label for="payt" class="unlimited__text unlimited__text_grey">Купить за 3600 ₽</label>
+                </form>
+               
+            </div>
+            <div class="unlimited__wifi-column">
+                <a href="javascript:void(0)" class="link link_blue">Выбрать модель</a>
+                <form action="javascript:void(0)" method="post" >
+                    <input type="checkbox" id="payt2" />
+                    <label for="payt2" class="unlimited__text unlimited__text_grey">Рассрочка на 30 месяцев (80 ₽/месяц)</label>
+                </form>
+            </div>
+        </div>
+        <hr>
+        
+
+    </div>
+</div>
 </div>
 
 </body>

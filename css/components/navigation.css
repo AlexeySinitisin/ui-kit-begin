@@ -5,16 +5,20 @@
     display: flex;
     align-items: center;
     color: white;
+    max-width: 100%;
 }
 
 .header__content {
+    width: 100%;
     max-width: 1290px;
+    margin: 0 auto;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .nav__conteiner {
@@ -28,17 +32,56 @@
 
 .nav__city {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.nav__city-container{
+
+.nav__city-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-right: 121px;
+
 }
-.nav__menu{
+
+.nav__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.nav__city-icon {
+    margin-right: 7px;
+}
+
+.nav__menu {
+    height: 70px;
+}
+
+.nav__menu-link_personal {
+    display: flex;
+    width: 148px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__menu-link_business {
+    width: 88px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__menu-link {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.nav__menu-link:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #F6C164;
+}
+

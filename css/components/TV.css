@@ -1,0 +1,29 @@
+.tv__title-link {
+    font-family: OfficinaSerifMediumC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
+
+.tv__text {
+    margin-top: 12px;
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+.tv__content{
+    display: flex;
+    width: 590px;
+}
+.tv__img{
+    margin-right: 30px;
+}
