@@ -1,0 +1,158 @@
+body {
+    background-color: grey;
+}
+.ct-orange hr{
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.ct-orange__size {
+    width: 410px;
+    height: 705px;
+    background: #FFFFFF;
+    /* medium */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.ct-orange__content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ct-orange__title {
+    display: flex;
+    align-items: center;
+    width: 374px;
+    height: 53px;
+    font-family: OfficinaSerifMediumC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    /* identical to box height */
+    text-align: center;
+    padding-left: 40px;
+
+    /* grey */
+    color: #212121;
+    background-image: url(../../img/yellow-fon_clever-thing.png);
+}
+
+.ct-orange__text-grey {
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(33, 33, 33, 0.7);
+}
+
+.ct-orange__text-grey {
+    margin: 0;
+}
+
+.ct-orange__text-grey:first-child {
+    margin-top: 17px;
+}
+
+.ct-orange__text-grey:nth-child(3) {
+    margin-bottom: 27px;
+}
+
+.ct-orange__text {
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.ct-orange__subtitle {
+    font-family: OfficinaSerifMediumC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.ct-orange b {
+    font-family: OfficinaSerifMediumC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212121;
+}
+
+.ct-orange__internet-subtitle::after {
+    content: "";
+    position: absolute;
+    left: 94px;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    background: url(../../icon/www-web.svg) center;
+}
+
+.ct-orange__mimuts-subtitle::after {
+    content: "";
+    position: absolute;
+    left: 77px;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    background: url(../../icon/clock.svg) center no-repeat;
+}
+
+.ct-orange__sms-subtitle::after {
+    content: "";
+    position: absolute;
+    left: 47px;
+    width: 35px;
+    height: 35px;
+    top: -7px;
+    background: url(../../icon/massage.svg) center no-repeat;
+}
+
+.ct-orange__pay-text {
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(33, 33, 33, 0.7);
+    margin-bottom: 9px;
+}
+
+.ct-orange__text_big {
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 46px;
+}
+.ct-orange__text_half-big{
+    line-height: 27px;
+    font-size: 24px;
+}
+
+.ct-orange__pay{
+    display: flex;
+    flex-direction: column;
+}
+.ct-orange__text_big{
+    margin-top:0;
+    margin-bottom: 10px;
+}
+.ct-orange .ct-orange__pay-text{
+    margin-bottom: 9px;
+}
+.ct-orange .ct-orange__text_big{
+    margin-bottom: 10px;
+}

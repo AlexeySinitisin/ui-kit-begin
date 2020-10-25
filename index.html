@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/components/submenu.css">
     <link rel="stylesheet" href="css/components/form.css">
     <link rel="stylesheet" href="css/components/TV.css">
-    <link rel="stylesheet" href="css/components/tariffs.css">
+    <link rel="stylesheet" href="css/components/tariff_unlim.css">
+    <link rel="stylesheet" href="css/components/tariff_clever-things-grey.css">
+    <link rel="stylesheet" href="css/components/tariff_clever-things-orange.css">
     <title>Document</title>
 </head>
 <script src="js/js.js"></script>
@@ -91,23 +93,23 @@
 
 
 
-<div class="unlimited">
+<div class="unlimited tariff unlimited__size">
     <div class="unlimited__title"><div class="unlimited__title-text">Тариф для тебя «Анлим»</div></div>
     <div class="unlimited__content">
         
         <div class="unlimited__home">
             <div class="unlimited__home-internet">
-                <h2>Домашний интернет</h2>
+                <h2 class="unlimited__home-title">Домашний интернет</h2>
                 <p class="unlimited__text">До <b>100</b> Мбит/c</p>
             </div>
             <div class="unlimited__home-tv">
-                <h2>Телевидение</h2>
+                <h2 class="unlimited__home-title unlimited__home-title_other" >Телевидение</h2>
                 <p class="unlimited__text"><b>77 </b><a href="javascript:void(0)" class="link link_black">каналов</a></p>
             </div>
         </div>
         <hr>
         <div class="unlimited__mobile">
-            <h2>Мобильная связь</h2>
+            <h2 class="unlimited__mobile-title">Мобильная связь</h2>
             <p class="unlimited__text"><img src="icon/infinity.svg" alt=""> Гб</p>
             <p class="unlimited__text"><b>600</b> минут</p>
             <p class="unlimited__text"><b>300</b> СМС</p>
@@ -117,11 +119,11 @@
             <div class="unlimited__wifi-column">
                 <div class="unlimited__wifi-text">
                     <h2 class="unlimited__wifi-title">Wifi роутер</h2>
-                    <p class="unlimited__text unlimited__text_grey">3600 ₽</p>
+                    <p class="unlimited__text unlimited__text-grey">3600 ₽</p>
                 </div>
                 <form action="javascript:void(0)" class="unlimited__form" method="post" >
                     <input type="checkbox" id="payt" checked/>
-                    <label for="payt" class="unlimited__text unlimited__text_grey">Купить за 3600 ₽</label>
+                    <label for="payt" class="unlimited__text-grey">Купить за 3600 ₽</label>
                 </form>
                
             </div>
@@ -129,7 +131,7 @@
                 <a href="javascript:void(0)" class="link link_blue">Выбрать модель</a>
                 <form action="javascript:void(0)" class="unlimited__form" method="post" >
                     <input type="checkbox" id="payt2" />
-                    <label for="payt2" class="unlimited__text unlimited__text_grey">Рассрочка на 30 месяцев (80 ₽/месяц)</label>
+                    <label for="payt2" class="unlimited__text-grey">Рассрочка на 30 месяцев (80 ₽/месяц)</label>
                 </form>
             </div>
         </div>
@@ -137,19 +139,19 @@
             <div class="unlimited__tv">
                 <div class="unlimited__wifi-text">
                 <h2 class="unlimited__wifi-title">ТВ приставка</h2>
-                <p class="unlimited__text unlimited__text_grey">В аренду</p>
+                <p class="unlimited__text unlimited__text-grey">В аренду</p>
                 </div>
                 <form action="javascript:void(0)" class="unlimited__form" method="post" >
                 <input type="checkbox" id="payt3" />
-                <label for="payt3" class="unlimited__text unlimited__text_grey">150 ₽/месяц </label>
+                <label for="payt3" class="unlimited__text unlimited__text-grey">150 ₽/месяц </label>
                 </form>
             </div>
         <hr>
             <div class="unlimited__pay">
                 <div class="unlimited__pay-column">
-                    <p class="unlimited__text unlimited__text_grey unlimited__text_grey-other">Абонентская плата</p>
-                    <p class="unlimited__text unlimited__text_big">345 <span class="unlimited__text unlimited__text_half-big">₽/месяц</span></p>
-                    <p class="unlimited__text unlimited__text_grey">+ 3600 ₽ единоразово</p>
+                    <p class="unlimited__text-grey unlimited__text_grey-other">Абонентская плата</p>
+                    <p class="unlimited__text-big">345 <span class="unlimited__text unlimited__text_half-big">₽/месяц</span></p>
+                    <p class=" unlimited__text-grey unlimited__text-grey_other">+ 3600 ₽ единоразово</p>
                 </div>
                 <div class="unlimited__pay-column unlimited__pay-column-other">
                     <a href="javascript:void(0)" class="link link_blue link_blue-other">Подробнее о тарифе</a>
@@ -157,7 +159,73 @@
                 </div>
             </div>
     </div>
+
 </div>
+    <!-- Clever things grey - ct-grey -->
+<div class="ct-grey ct-grey__size tariff">
+        <div class="ct-grey__title">
+            Тариф «Для умных вещей»
+        </div>
+        <div class="ct-grey__content">
+            <div class="ct-grey__home">
+                <div class="ct-grey__home-internet">
+                    <h2 class="ct-grey__home-title">Домашний интернет</h2>
+                    <p class="ct-grey__text">До <b>100</b> Мбит/c</p>
+                </div>
+            </div>
+            <hr>
+            <div class="ct-grey__home-tv">
+                <h2 class="ct-grey__tv-title" >Телевидение</h2>
+                <p class="ct-grey__text"><b>77 </b><a href="javascript:void(0)" class="link link_black">каналов</a></p>
+                <p class="ct-grey__text"><b>8000 </b><a href="javascript:void(0)" class="link link_black">фильмов в месяц в подарок</a></p>
+            </div>
+            <hr>
+            <div class="ct-grey__mobile">
+            <h2 class="ct-grey__mobile-title">Мобильная связь</h2>
+            <p class="ct-grey__text"><img src="icon/infinity.svg" alt=""> Гб</p>
+            <p class="ct-grey__text"><b>600</b> минут</p>
+            <p class="ct-grey__text"><b>300</b> СМС</p>
+            <p class="ct-grey__text"><b>2</b> доп. устройства за доп. плату</p>
+            </div>
+            <hr>
+            <div class="ct-grey__pay">
+                <p class="ct-grey__text ct-grey__text_big">345 <span class="ct-grey__text ct-grey__text_half-big">₽/месяц</span></p>
+                <a href="javascript:void(0)" class="link link_blue link_blue-other">Подробнее о тарифе</a>
+                <button class="btn btn_orange btn_orange-other ct-grey__button">Подключить</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="ct-orange ct-orange__size tariff">
+        <div class="ct-orange__title">Тариф «Для умных вещей»</div>
+        <div class="ct-orange__content">
+            <div class="ct-orange__internet">
+                <p class="ct-orange__text-grey">Посекундная тарификация местных вызовов</p>
+                <p class="ct-orange__text-grey">Единая цена на местные звонки — 3,21 ₽/минуту</p>
+                <p class="ct-orange__text-grey">Выгодная цена на звонки по России — 3,21 ₽/минуту</p>
+                <h2 class="ct-orange__internet-subtitle ct-orange__subtitle">Интернет</h2>
+                <p class="ct-orange__text"><b>500</b> мб</p>
+            </div>
+            <hr>
+            <div class="ct-orange__minuts">
+                <h2 class="ct-orange__mimuts-subtitle ct-orange__subtitle">Минуты</h2>
+                <p class="ct-orange__text"><b>30</b> минут</p>
+            </div>
+            <hr>
+            <div class="ct-orange__sms">
+                <h2 class="ct-orange__sms-subtitle ct-orange__subtitle">СМС</h2>
+                <p class="ct-orange__text"><b>100</b> СМС</p>
+            </div>
+            <hr>
+            <div class="ct-orange__pay">
+                <p class="ct-orange__pay-text ">Абонентская плата</p>
+                <p class="ct-orange__text ct-orange__text_big">345 <span class="ct-orange__text ct-orange__text_half-big">₽/месяц</span></p>
+                <a href="javascript:void(0)" class="link link_blue link_blue-other">Подробнее о тарифе</a>
+                <button class="btn btn_orange btn_orange-other ct-orange__button">Подключить</button>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>

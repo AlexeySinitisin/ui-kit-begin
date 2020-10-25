@@ -3,7 +3,12 @@
     box-sizing: border-box;
 }
 
-.unlimited__content {
+.tariff p,
+h2 {
+    margin: 0;
+}
+
+.unlimited__size {
     width: 630px;
     height: 726px;
     /* white */
@@ -11,6 +16,10 @@
     /* medium */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    padding-top: 30px;
+}
+
+.unlimited__content {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -29,7 +38,6 @@
     /* identical to box height */
     text-align: center;
     padding-left: 40px;
-    margin-top: 30px;
     /* grey */
     color: #212121;
     background-image: url(../../img/yellow-fon.png);
@@ -60,6 +68,14 @@ b {
     line-height: 28px;
 }
 
+.unlimited__title {
+    margin-bottom: 17px;
+}
+
+.unlimited__home-title {
+    margin-bottom: 15px;
+}
+
 .unlimited__text {
     font-family: OfficinaSerifBookC;
     font-style: normal;
@@ -69,7 +85,13 @@ b {
     color: #000000;
 }
 
-.unlimited__text_grey {
+.unlimited__text-grey {
+    font-family: OfficinaSerifBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
     color: rgba(33, 33, 33, 0.7);
 }
 
@@ -224,7 +246,7 @@ b {
     flex-direction: column;
 }
 
-.unlimited__text_big {
+.unlimited__text-big {
     font-family: OfficinaSerifBookC;
     font-style: normal;
     font-weight: normal;
@@ -255,7 +277,12 @@ b {
     margin-bottom: 30px;
 }
 
-   .link_blue-other {
+.unlimited__text-grey_other {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.link_blue-other {
     font-family: OfficinaSerifBookC;
     font-style: normal;
     font-weight: normal;
@@ -264,4 +291,58 @@ b {
     text-decoration-line: underline;
     /* blue6 */
     color: #15499F;
+    margin-bottom: 20px;
+}
+
+.unlimited__home-title {
+    position: relative;
+}
+
+.unlimited__home-title::after {
+    content: "";
+    position: absolute;
+    left: 182px;
+    top: -5px;
+    background: url(../../icon/www-web.svg) center;
+    width: 35px;
+    height: 35px;
+}
+
+.unlimited__home-title_other::after {
+    background: url(../../icon/TV.svg) center;
+    left: 117px;
+}
+
+.unlimited__mobile-title {
+    position: relative;
+}
+
+.unlimited__mobile-title::after {
+    content: "";
+    position: absolute;
+    left: 157px;
+    width: 35px;
+    height: 35px;
+    top: -5px;
+    background: url(../../icon/telephone.svg) center;
+}
+
+.tariff hr {
+    height: 1px;
+    border: 0;
+    background: rgba(196, 196, 196, 0.5);
+
+}
+
+.unlimited hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.unlimited__mobile-title {
+    margin-bottom: 15px;
+}
+
+.unlimited .unlimited__text {
+    margin-bottom: 10px;
 }
