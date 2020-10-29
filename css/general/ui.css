@@ -67,7 +67,7 @@
     width: 138px;
     background: black;
     color: #F6C164;
-
+    transition: .3s;
 }
 
 .btn__text_orange,
@@ -75,6 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s;
 }
 
 .btn__icon_orange::before {
@@ -87,7 +88,7 @@
 
 }
 
-.btn__icon_orange:hover::before {
+.btn_login-orange:hover .btn__icon_orange:before {
     content: "";
     display: block;
     width: 35px;
@@ -95,37 +96,40 @@
     background: url('../../icon/avatar-white.svg') no-repeat center;
 }
 
-.btn__text_orange:hover {
+.btn_login-orange:hover .btn__text_orange {
     color: white;
+    
 }
 
 .btn_login-orange:hover {
     border: 1px solid #FFFFFF;
 }
 
-.btn__icon_orange:active::before {
+.btn_login-orange:active .btn__icon_orange::before {
     content: "";
     display: block;
     width: 35px;
     height: 35px;
     background: url('../../icon/avatar-black.svg') no-repeat center;
-}
+   }
 
-.btn__text_orange:active {
+.btn_login-orange:active .btn__text_orange {
     color: black;
 }
 
 .btn_login-orange:active {
     border: 1px solid black;
     background: white;
+ 
 }
 
-/* white button login */
+/*-------------------------------- white button login */
 .btn_login-white {
     border: 1px solid white;
     width: 138px;
     background: black;
     color: white;
+    transition: .3s;
 
 }
 
@@ -140,24 +144,24 @@
 
 }
 
-.btn__icon_white:hover::before {
+.btn_login-white:hover .btn__icon_white::before {
     content: "";
     display: block;
     width: 35px;
     height: 35px;
     background: url('../../icon/avatar-orange.svg') no-repeat center;
+    transition: .3s;
 }
 
-.btn__text_white:hover {
+.btn_login-white:hover .btn__text_white {
     color: #F6C164;
 }
 
 .btn_login-white:hover {
     border: 1px solid #F6C164;
-    ;
 }
 
-.btn__icon_white:active::before {
+.btn_login-white:active .btn__icon_white::before {
     content: "";
     display: block;
     width: 35px;
@@ -165,7 +169,7 @@
     background: url('../../icon/avatar-black.svg') no-repeat center;
 }
 
-.btn__text_white:active {
+.btn_login-white:active .btn__text_white {
     color: black;
 }
 

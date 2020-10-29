@@ -5,6 +5,9 @@ body {
     margin-top: 20px;
     margin-bottom: 27px;
 }
+.ct-orange .hr_margin-other{
+    margin-bottom: 20px;
+}
 .ct-orange__size {
     width: 410px;
     height: 705px;

@@ -26,7 +26,7 @@ h2 {
 
 .unlimited__title {
     display: flex;
-    align-items: center;
+
     width: 349px;
     height: 53px;
     font-family: OfficinaSerifMediumC;
@@ -37,7 +37,7 @@ h2 {
     text-align: center;
     /* identical to box height */
     text-align: center;
-    padding-left: 40px;
+    padding-left: 38px;
     /* grey */
     color: #212121;
     background-image: url(../../img/yellow-fon.png);
@@ -69,6 +69,7 @@ b {
 }
 
 .unlimited__title {
+    padding-top: 12px;
     margin-bottom: 17px;
 }
 
@@ -80,9 +81,15 @@ b {
     font-family: OfficinaSerifBookC;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
     color: #000000;
+}
+
+.link_black_small {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 40px;
 }
 
 .unlimited__text-grey {
@@ -104,14 +111,31 @@ b {
 .unlimited__wifi-column {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.unlimited__text-grey-margin {
+    margin-bottom: 10px;
 }
 
 .unlimited__form {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
 
+.unlimited .unlimited__text_grey-other {
+    margin-bottom: 9px;
+}
+
+.unlimited__wifi-column_first {
+    align-items: flex-start;
+}
+
+#payt,
+#payt2,
+#payt3 {
+    margin-bottom: 6px;
 }
 
 .unlimited__wifi-title {
@@ -301,26 +325,40 @@ b {
 .unlimited__home-title::after {
     content: "";
     position: absolute;
-    left: 182px;
+    left: 175px;
     top: -5px;
     background: url(../../icon/www-web.svg) center;
     width: 35px;
     height: 35px;
 }
 
+.unlimited .unlimited__text_other {
+    margin-bottom: 8px;
+    vertical-align: center;
+}
+
 .unlimited__home-title_other::after {
     background: url(../../icon/TV.svg) center;
-    left: 117px;
+    left: 112px;
+}
+
+.b_margin-right {
+    margin-right: 10px;
+}
+
+.unlimited__text-margin {
+    margin-right: 14px;
 }
 
 .unlimited__mobile-title {
     position: relative;
+    margin-top: 27px;
 }
 
 .unlimited__mobile-title::after {
     content: "";
     position: absolute;
-    left: 157px;
+    left: 146px;
     width: 35px;
     height: 35px;
     top: -5px;
@@ -340,9 +378,5 @@ b {
 }
 
 .unlimited__mobile-title {
-    margin-bottom: 15px;
-}
-
-.unlimited .unlimited__text {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }

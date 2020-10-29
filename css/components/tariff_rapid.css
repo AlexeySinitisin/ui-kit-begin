@@ -33,6 +33,7 @@
     /* grey */
     color: #212121;
     background: url(../../img/yellow-fon_rapid.png) no-repeat;
+    margin-bottom: 20px;
 }
 
 .rapid h2 {
@@ -60,9 +61,7 @@ b {
     line-height: 28px;
 }
 
-.rapid__title {
-    margin-bottom: 17px;
-}
+
 
 .rapid__home-title {
     margin-bottom: 15px;
@@ -88,8 +87,9 @@ b {
 
 }
 
-.rapid__text-grey_right {
+.rapid .rapid__wifi .rapid__text-grey_right {
     text-align: right;
+    margin-bottom: 0;
 }
 
 .rapid__wifi {

@@ -109,6 +109,7 @@
 }
 
 .nav__menu-link:hover {
+    transition: .3s;
     text-decoration: none;
     color: white;
     border-bottom: 2px solid #F6C164;
