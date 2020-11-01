@@ -20,21 +20,8 @@
     transition: opacity 400ms ease-in;
 }
 
-.modal__form-close{
-    position: absolute;
-    top:50px;
-    right: 50px;
-    cursor: pointer;
-    z-index: 6;
-}
 
-#close[type="radio"]{
-    cursor: pointer;
 
-}
-#close:checked[type="radio"] .modal-window{
-    display: none;
-}
 .modal__close {
     width: 23px;
     height: 23px;
@@ -46,7 +33,7 @@
     z-index: 5;
 }
 
-.modal__close:visited .modal-window {
+.modal__close:active .modal-window {
     display: none;
 }
 
