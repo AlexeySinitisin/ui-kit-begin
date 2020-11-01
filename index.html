@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="css/components/tariff_clever-things-grey.css">
     <link rel="stylesheet" href="css/components/tariff_clever-things-orange.css">
     <link rel="stylesheet" href="css/components/tariff_rapid.css">
+    <link rel="stylesheet" href="css/components/modal.css">
     <title>Document</title>
 </head>
 <script src="js/js.js"></script>
+<body>
 <div class="ui">
     <h1>BUTTONS</h1>
     <button class="btn btn_orange">Новое подключение</button>
@@ -78,8 +80,9 @@
     <legend class="form__legend">Ваш телефон</legend> 
     <form action="javascript:void(0)" method="post">
     <input type="text" name="telephone" placeholder="+7 903 367 65 47" class="form__telephone">
-   </div>
-    </form>
+    </form>   
+</div>
+    
 </div>
 <div class="tv">
     <div class="tv__content">
@@ -281,6 +284,29 @@
 
 </div>
 </div>
+
+<br><br>
+<a href="#openModal">Открыть модальное окно</a>
+<br>
+
+<div id="openModal" class="modal-window">
+    <div class="modal modal__content modal-img">
+        <a href="#close" class="modal__close"><img src="icon/close.svg" alt="close"></a>
+        <div class="modal__title modal-title"><p><span class="modal__span">Вы можете позвонить нам </span><span class="modal__span modal__span_orange">по бесплатному номеру</span></p>
+           
+        </div>
+        <div class="modal__subtitle modal-title">8 800 100 00 00</div>
+        <form class="modal__form">
+			<input type = "radio" id = "new-conect" name = "choice" value = "new-conect" checked> 
+			<label for = "new-conect">Новое подключение</label> 
+            <input type = "radio"id = "support" name = "choice" value = "support">
+            <label for = "support">Техническая поддержка</label>
+        </form>
+    <div class="modal__container"><span class="modal__text">Также вы можете заказать обратный звонок.</span><span class="modal__text">Мы перезвоним вам в течение 15 минут!</span></div>
+    <button class="btn btn_orange">Новое подключение</button>
+    </div>
+</div>
+
 
 </body>
 </html>
