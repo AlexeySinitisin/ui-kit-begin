@@ -22,7 +22,7 @@
 }
 .modal-window:target{
     display: block;
-    pointer-events:none;
+
 }
 .modal p {
     margin: 0;
