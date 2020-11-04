@@ -1,9 +1,10 @@
 .modal {
     background: white;
-    margin: 12% auto;
+    
     position: relative;
     width: 791px;
     height: 503px;
+    vertical-align: middle;
 }
 
 .modal-window {
@@ -18,6 +19,9 @@
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
